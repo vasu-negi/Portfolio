@@ -55,7 +55,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'gossip_dos.jpg',
+    img: 'gossip.jpg',
     title: 'ASYNCHRONOUS goSIMULATION USING ACTOR MODEL',
     info:
       'Used AKKA.NET’s Actor modeling in F# to implement Gossip and Push-Sum algorithms used for group communication and for aggregate computation.' +
