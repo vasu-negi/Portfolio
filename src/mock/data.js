@@ -46,28 +46,56 @@ export const projectsData = [
     title: 'FAKE IMAGE DETECTION USING FINELY TUNED CONVNET WITH EXPLANATION',
     info:
       'Machine Learning program for detecting image manipulation using finely tuned Convolutional Neural Networks.' +
-      '\n Implemented the program using PyTorch to create and finely tune the ConvNet on the dataset (140k Real and Fake' +
-      'images - 70k real faces (from Flickr) and 70k fake' +
-      'faces (GAN-generated)). \n Used LIME (Local Interpretable Model-Agnostic Explanations) to present the contribution of each feature in the predictions of the data samples.',
+      '\n Implemented the program using PyTorch to create and finely tune the ConvNet on the dataset (140k Real and Fake. ' +
+      ' Pastry performs application-level routing and object location in a potentially very large overlay network of nodes connected via the Internet' +
+      'It can be used to support a variety of peer-to-peer applications, including global data storage, data sharing, group communication and naming.',
     info2: '',
     url: '',
     repo: 'https://www.kaggle.com/vasunegi1995/fakeimage-detection-using-convnet-with-explanation', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
+    img: 'pastryprotocol.jpg',
+    title: 'PASTRY PROTOCOL',
+    info:
+      'The goal of this project is to implement in F# usingthe actor model the Pastry protocol and a simple object access service' +
+      '\n a scalable, distributed object location and routing substrate for wide-area peer-to-peer applications. ' +
+      'images - 70k real faces (from Flickr) and 70k fake' +
+      'faces (GAN-generated)). \n Used LIME (Local Interpretable Model-Agnostic Explanations) to present the contribution of each feature in the predictions of the data samples.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/vasu-negi/PastryAlogrithm', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
+    img: 'twitter.jpg',
+    title: 'TWITTER',
+    info:
+      'Implemented a Twitter Clone and a client tester/simulator' +
+      "\n with the following functionality: \n Register account, Send tweet. Tweets can have hashtags (e.g. #COP5615isgreat) and mentions (@bestuser), Subscribe to user's tweets" +
+      'Re-tweets (so that your subscribers get an interesting tweet you got by other means)' +
+      'Allow querying tweets subscribed to, tweets with specific hashtags, tweets in which the user is mentioned (my mentions). \n If the user is connected, deliver the above types of tweets live (without querying)',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/vasu-negi/Twitter', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
     img: 'gossip.jpg',
-    title: 'ASYNCHRONOUS goSIMULATION USING ACTOR MODEL',
+    title: 'GOSSIP AND PUSH-SUM ALGORITHMS',
     info:
       'Used AKKA.NET’s Actor modeling in F# to implement Gossip and Push-Sum algorithms used for group communication and for aggregate computation.' +
       'The algorithm was tested on Full Network, 2D Grid, Line, and Imperfected 2D Grid topologies and interesting finds were presented in the output file.' +
       'Implemented a failure model and a fault tolerant model to handle the faulty nodes and observe the convergence of the network.',
     info2: '',
     url: '',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/vasu-negi/Gossip-Protocol', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'lucassquare.jpg',
+    img: 'lucassquare.jpeg',
     title: 'LUCAS SQUARE PYRAMID',
     info:
       'Used AKKA.NET’s Actor modeling in F# to build a distributed system solution to solve the Lucas Square Pyramid while utilizing concurrent computation.' +
@@ -75,12 +103,12 @@ export const projectsData = [
       'The application used multiple cores on a single machine as well as on multiple machines when connected to a LAN to solve the problem much faster than a traditional program.',
     info2: '',
     url: '',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/vasu-negi/Lucas-Pyramid', // if no repo, the button will not show up
   },
 
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'risingcity.jpg',
     title: 'RISING CITY',
     info:
       'Java application for tracking the construction of all buildings under construction in a new city.' +
