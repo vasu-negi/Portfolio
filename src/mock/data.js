@@ -55,7 +55,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'pastryprotocol.jpg',
     title: 'PASTRY PROTOCOL',
     info:
       'The goal of this project is to implement in F# usingthe actor model the Pastry protocol and a simple object access service' +
@@ -69,7 +69,7 @@ export const projectsData = [
 
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'twitter.jpg',
     title: 'TWITTER',
     info:
       'Implemented a Twitter Clone and a client tester/simulator' +
@@ -95,7 +95,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'lucassquare.jpg',
+    img: 'lucassquare.jpeg',
     title: 'LUCAS SQUARE PYRAMID',
     info:
       'Used AKKA.NET’s Actor modeling in F# to build a distributed system solution to solve the Lucas Square Pyramid while utilizing concurrent computation.' +
@@ -108,7 +108,7 @@ export const projectsData = [
 
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'risingcity.jpg',
     title: 'RISING CITY',
     info:
       'Java application for tracking the construction of all buildings under construction in a new city.' +
